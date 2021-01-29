@@ -14,9 +14,9 @@ Install these packages.
 
 When installing `pystan`, it involves compiling the code Stan (C++ code).
 Whatever compiler is used here needs to be in your path when running Stan.
-This is the alias Alex needs to call before running python for his version to work (I am currently on a very old OS X):
+This is the alias Alex needs to call before running the ipython notebook for his version to work:
 ```
-alias stancc="export CC=x86_64-apple-darwin13.4.0-clang; export CXX=x86_64-apple-darwin13.4.0-clang++"
+alias stancc="export CC=<your-version-of-clang>; export CXX=<your-version-of-clang++>"
 ```
 
 If you have not installed standard astronomy libraries (numpy, scipy, matplotlib, astropy) you should do that too.
