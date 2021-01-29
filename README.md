@@ -1,9 +1,12 @@
 # cda-samplers
 Examples of fitting a simple Gaussian mixture model with three different Bayesian sampling methods.
 
+Developed for a lecture for Carnegie's Computational Data Analysis program
+
 ## Setup
 Install these packages.
 * Install `dynesty`: `pip install dynesty` https://dynesty.readthedocs.io/en/latest/
+  * Install `tqdm` as part of this: `pip install tqdm`
 * Install `emcee`: `pip install emcee` https://emcee.readthedocs.io/en/stable/user/install/
 * Install `pystan`: `pip install pystan` https://pystan.readthedocs.io/en/latest/getting_started.html
 * Install `corner`: `pip install corner` https://corner.readthedocs.io/en/latest/
@@ -15,6 +18,8 @@ This is the alias Alex needs to call before running python for his version to wo
 ```
 alias stancc="export CC=x86_64-apple-darwin13.4.0-clang; export CXX=x86_64-apple-darwin13.4.0-clang++"
 ```
+
+If you have not installed standard astronomy libraries (numpy, scipy, matplotlib, astropy) you should do that too.
 
 ## Data
 The dataset we will use is not yet published but will be soon.
