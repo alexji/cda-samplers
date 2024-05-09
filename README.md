@@ -12,6 +12,10 @@ Install these packages.
 * Install `corner`: `pip install corner` https://corner.readthedocs.io/en/latest/
 * Install `schwimmbad`: `pip install schwimmbad` https://schwimmbad.readthedocs.io/en/latest/
 
+2024 update: 
+* `conda create -n cda-samplers-2024-05 python jupyter numpy scipy emcee dynesty corner schwimmbad astropy -c conda-forge`
+
+
 When installing `pystan`, it involves compiling the code Stan (C++ code).
 Whatever compiler is used here needs to be in your path when running Stan.
 This is the alias Alex needs to call before running the ipython notebook for his version to work:
